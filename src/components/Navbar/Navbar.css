@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 150px;
+  margin: 20px 120px;
 }
 
 .navbar-menu {
@@ -17,7 +17,7 @@
     padding: 15px 30px;
     border-radius: 50px;
     background: linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.06%);
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
     transition: 0.5s;                       /*Here we are setting the transition of the hover*/
 }
