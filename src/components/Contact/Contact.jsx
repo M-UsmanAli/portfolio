@@ -28,7 +28,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <form className="contact-right">
+            <form onSubmit={onSubmit} className="contact-right">
                 <label htmlFor="">Your Name</label>
                 <input type="text" placeholder='Enter your Name' name='name'/>
                 <label htmlFor="">Your Email</label>
@@ -43,3 +43,28 @@ const Contact = () => {
 }
 
 export default Contact
+
+const onSubmit = async (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "25987c4a-2399-40de-b8d5-71650864cf10");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      alert(res.message)
+      form.reset();
+    }
+  };
