@@ -25,3 +25,15 @@
 .navbar-connect:hover{
     transform: scale(1.05);                 /*Here we are setting the hover effect*/
 }
+
+.navbar-menu li{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.navbar-menu li img{
+  display: flex;
+  margin: auto;
+}
