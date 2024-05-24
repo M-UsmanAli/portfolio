@@ -2,6 +2,8 @@ import React from "react";
 import "./AboutSection.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import profile_img from "../../assets/about_profile.svg";
+import new_p_img from "../../assets/new_p_img.png";
+import resized_img from "../../assets/resized_img.png";
 
 const AboutSection = () => {
   return (
@@ -12,7 +14,7 @@ const AboutSection = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_img} alt="" />
+          <img src={new_p_img} alt="" />
         </div>
 
         <div className="about-right">
@@ -27,10 +29,12 @@ const AboutSection = () => {
             </p>
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} /></div>
-            <div className="about-skill"><p>React JS</p><hr style={{ width: "70%" }} /></div>
-            <div className="about-skill"><p>JavaScript</p><hr style={{ width: "60%" }} /></div>
-            <div className="about-skill"><p>Next JS</p><hr style={{ width: "50%" }} /></div>
+            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "95%" }} /></div>
+            <div className="about-skill"><p>React JS</p><hr style={{ width: "77%" }} /></div>
+            <div className="about-skill"><p>JavaScript</p><hr style={{ width: "70%" }} /></div>
+            <div className="about-skill"><p>Next JS</p><hr style={{ width: "75%" }} /></div>
+            <div className="about-skill"><p>PHP</p><hr style={{ width: "65%" }} /></div>
+            <div className="about-skill"><p>WordPress</p><hr style={{ width: "75%" }} /></div>
           </div>
         </div>
       </div>

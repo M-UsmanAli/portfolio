@@ -7,6 +7,7 @@
     margin: 80px 170px;
 }
 
+
 .about-title{
     position: relative;
 }
@@ -27,6 +28,11 @@
 .about-sections{
     display: flex;
     gap: 80px;
+}
+
+.about-left img{
+    width: 420px;
+    height: 500px;
 }
 
 .about-right{
