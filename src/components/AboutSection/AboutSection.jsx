@@ -18,40 +18,59 @@ const AboutSection = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I am a software engineer with expertise in React.js and Next.js application development. With a passion for creating innovative and user-friendly solutions.
+              I am a software engineer specializing in React.js and Next.js
+              development, passionate about creating innovative and
+              user-friendly web applications.
             </p>
             <p>
-              My expertise extends to the entire software development lifecycle,
-              from conceptualization and design to implementation and
-              deployment.
+              My skills cover the full software development lifecycle:
+              conceptualization, design, implementation, and deployment.
             </p>
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "95%" }} /></div>
-            <div className="about-skill"><p>React JS</p><hr style={{ width: "77%" }} /></div>
-            <div className="about-skill"><p>JavaScript</p><hr style={{ width: "70%" }} /></div>
-            <div className="about-skill"><p>Next JS</p><hr style={{ width: "75%" }} /></div>
-            <div className="about-skill"><p>PHP</p><hr style={{ width: "65%" }} /></div>
-            <div className="about-skill"><p>WordPress</p><hr style={{ width: "75%" }} /></div>
+            <div className="about-skill">
+              <p>HTML & CSS</p>
+              <hr style={{ width: "95%" }} />
+            </div>
+            <div className="about-skill">
+              <p>React JS</p>
+              <hr style={{ width: "77%" }} />
+            </div>
+            <div className="about-skill">
+              <p>JavaScript</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Next JS</p>
+              <hr style={{ width: "75%" }} />
+            </div>
+            <div className="about-skill">
+              <p>PHP</p>
+              <hr style={{ width: "65%" }} />
+            </div>
+            <div className="about-skill">
+              <p>WordPress</p>
+              <hr style={{ width: "75%" }} />
+            </div>
           </div>
         </div>
       </div>
       <div className="about-achievements">
-          <div className="about-achievement">
-            <h1>2+</h1>
-            <p>YEARS OF EXPREINCE</p>
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>30+</h1>
-            <p>PEOJECTS COMPLETED</p>
-          </div>
-          <hr />
-          <div className="about-achievement">
-            <h1>15+</h1>
-            <p>SATISFIED CLIENTS</p>
-          </div>
+        <div className="about-achievement">
+          <h1>2+</h1>
+          <p>YEARS OF EXPREINCE</p>
         </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>30+</h1>
+          <p>PEOJECTS COMPLETED</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>15+</h1>
+          <p>SATISFIED CLIENTS</p>
+        </div>
+      </div>
     </div>
   );
 };
