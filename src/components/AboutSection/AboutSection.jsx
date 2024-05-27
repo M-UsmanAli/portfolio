@@ -1,9 +1,7 @@
 import React from "react";
-import "./AboutSection.css";
-import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/about_profile.svg";
 import new_p_img from "../../assets/new_p_img.png";
-import resized_img from "../../assets/resized_img.png";
+import theme_pattern from "../../assets/theme_pattern.svg";
+import "./AboutSection.css";
 
 const AboutSection = () => {
   return (
