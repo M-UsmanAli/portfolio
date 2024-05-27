@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import two_hundred from '../../assets/two_hundred.png'
 import footer_logo from "../../assets/footer_logo.svg";
 import user_icon from "../../assets/user_icon.svg";
 const Footer = () => {
@@ -7,23 +8,25 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footer-top-left">
-          <img src={footer_logo} alt="" />
+          <img src={two_hundred} alt="footer-logo" className="footer-logo"/>
+          <p>Full Stack Developer from Pakistan</p>
           <p>
-            I am Full Stack Developer from Pakistan with 2+ years of Expereince
-            in creating Web Applications.
+            Bringing 2+ years of experience in crafting dynamic web applications
           </p>
         </div>
         <div className="footer-top-right">
           <div className="footer-email-input">
-            <img src={user_icon} alt="" />
-            <input type="email" placeholder="Enter Your E-mail"/>
+            <img src={user_icon} alt="user-icon" />
+            <input type="email" placeholder="Enter Your E-mail" />
           </div>
           <div className="footer-subscribe">Subscribe</div>
         </div>
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">© 2024 Muhammad Usman Ali. All rights reserved.</p>
+        <p className="footer-bottom-left">
+          © 2024 Muhammad Usman Ali. All rights reserved.
+        </p>
         <div className="footer-bottom-right">
           <p>Term of Services</p>
           <p>Privacy Policy</p>

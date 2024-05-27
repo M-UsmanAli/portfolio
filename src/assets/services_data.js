@@ -17,7 +17,7 @@ const Services_Data = [
     {
         s_no:"04",
         s_name:"App design",
-        s_desc:"Crafting intuitive, innovative mobile and web applications with a focus on exceptional user experience."
+        s_desc:"Crafting intuitive, innovative mobile and web applications with a focus on attractive user experience."
     },
     {
         s_no:"05",

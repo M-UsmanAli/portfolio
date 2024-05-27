@@ -8,11 +8,11 @@ const AboutSection = () => {
     <div className="about" id="about">
       <div className="about-title">
         <h1>About Me</h1>
-        <img src={theme_pattern} alt="" />
+        <img src={theme_pattern} alt="theme-pattern" />
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={new_p_img} alt="" />
+          <img src={new_p_img} alt="new-profile-image" />
         </div>
 
         <div className="about-right">

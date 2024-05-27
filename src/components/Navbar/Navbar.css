@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 20px 120px;
+  margin-top: -20px;
 }
 
 .navbar-menu {
@@ -11,6 +12,10 @@
   list-style: none;
   gap: 60px;
   font-size: 20px;
+}
+.navbar_logo{
+  margin-top: -5px;
+  cursor: pointer;
 }
 
 .navbar-connect {
@@ -54,6 +59,7 @@
 @media (max-width: 768px) {
   .navbar {
     margin: 20px 50px;
+    margin-top: -30px;
   }
 
   .navbar-connect {

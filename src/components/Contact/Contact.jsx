@@ -10,21 +10,21 @@ const Contact = () => {
     <div className='contact' id='contact'>
         <div className="contact-title">
             <h1>Get In Touch</h1>
-            <img src={theme_pattern} alt="" />
+            <img src={theme_pattern} alt="theme-pattern" />
         </div>
         <div className="contact-section">
             <div className="contact-left">
                 <h1>Lets Talk</h1>
-                <p>I am currently available to take on new projects, so feel free to send me a messgae about anything you want me to work on. You can contact me anytime.</p>
+                <p>I'm ready to tackle new projects! Drop me a message about your ideas or requirements. Get in touch anytime.</p>
                 <div className="contact-details">
                     <div className="contact-detail">
                         <img src={mail_icon} alt="" /> <p>aliusmanmuhammad98@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="" /> <p>003130874356</p>
+                        <img src={call_icon} alt="call-icon" /> <p>003130874356</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={location_icon} alt="" /> <p>Islamabad, Pakistan</p>
+                        <img src={location_icon} alt="contact-detail" /> <p>Islamabad, Pakistan</p>
                     </div>
                 </div>
             </div>
