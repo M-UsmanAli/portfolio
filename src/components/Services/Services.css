@@ -80,10 +80,10 @@
 
 @media(max-width:480px){
     .services{
-        width: 140%;
+        width: 100%; /* Adjust width to full */
         align-items: center;
-        gap: 70px;
-        margin: 20px 70px;
+        gap: 40px;
+        margin: 20px 0; /* Adjust margin */
     }
     .services-title h1{
         padding: 0;
@@ -94,22 +94,23 @@
         right: -20px;
     }
     .services-format{
+        width: 95%; /* Ensure the service format takes full width */
         gap: 20px;
-        padding: 32px;
     }
     .services-format h2{
-        font-size: 28px;
+        font-size: 120px;
+        font-weight: 600;
     }
     .services-format p{
-        font-size: 20px;
+        font-size: 70px;
         line-height: 32px;
-        max-width: 300px;
-    }
-    .services-readmore img{
-        width: 20px;
+        max-width: 100%; /* Allow full width for text */
     }
     .services-container{
+        display: flex;
+        flex-direction: column; /* Arrange in a column */
         gap: 30px;
+        width: 85%; /* Ensure full width */
     }
 }
 
