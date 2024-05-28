@@ -95,7 +95,8 @@
   }
   .footer-top-right {
     width: 200%;
-    gap: 50px;
+    flex-direction: column;
+    align-items: start;
   }
   .footer-subscribe {
     font-size: 15px;
