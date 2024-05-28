@@ -79,7 +79,7 @@
         margin: 50px 70px;
     }
     .footer hr{
-        width: 225%;
+        width: 200%;
     }
     .footer-top{
         flex-direction: column;
@@ -90,8 +90,11 @@
         flex-direction: column-reverse;
     }
     .footer-bottom-right{
-        width: 225%;
+        width: 200%;
         justify-content: space-between;
+    }
+    .footer-top-right{
+        width: 200%;
     }
 }
 
