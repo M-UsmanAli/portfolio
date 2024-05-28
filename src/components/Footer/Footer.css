@@ -95,6 +95,7 @@
   }
   .footer-top-right {
     width: 200%;
+    gap: 50px;
   }
   .footer-subscribe {
     font-size: 15px;
