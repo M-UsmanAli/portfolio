@@ -58,16 +58,16 @@ const AboutSection = () => {
       <div className="about-achievements">
         <div className="about-achievement">
           <h1>2+</h1>
-          <p>YEARS OF EXPREINCE</p>
-        </div>
-        <hr />
-        <div className="about-achievement">
-          <h1>30+</h1>
-          <p>PEOJECTS COMPLETED</p>
+          <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achievement">
           <h1>15+</h1>
+          <p>PROJECTS COMPLETED</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>10+</h1>
           <p>SATISFIED CLIENTS</p>
         </div>
       </div>

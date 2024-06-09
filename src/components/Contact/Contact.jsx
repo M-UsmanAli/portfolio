@@ -21,7 +21,7 @@ const Contact = () => {
                         <img src={mail_icon} alt="" /> <p>aliusmanmuhammad98@gmail.com</p>
                     </div>
                     <div className="contact-detail">
-                        <img src={call_icon} alt="call-icon" /> <p>003130874356</p>
+                        <img src={call_icon} alt="call-icon" /> <p>+92 313 0874356</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location_icon} alt="contact-detail" /> <p>Islamabad, Pakistan</p>
